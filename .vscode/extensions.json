@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "junstyle.vscode-django-support",
+        "bibhasdn.django-html",
+        "stuartelimu.django-template-snippets"
+    ]
+}

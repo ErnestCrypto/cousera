@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src = "assets/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<title>Cousera | Courses Page</title>
+</head>
+<body>
+<!-- start nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light  p-3">
+        <div class="container-fluid d-flex align-items-center">
+          <div class=" d-flex align-items-center ">
+            <a class="navbar-brand" href="index.html">
+              <div>
+              <img src="assets/img/download.svg" alt="logo"  width="130" height="24" class="d-inline-block align-text-top"/>
+              </div>
+            </a>
+           
+            <a href="course_lists.html" class="explore_btn">
+              explore
+            </a>
+            <form class="d-flex ps-3 search_form">
+              <input class="search_input form-control " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn search_btn d-flex align-items-center justify-content-center" type="submit"><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-293.000000, -23.000000)"><g fill="#E1E1E1"><g transform="translate(293.000000, 22.000000)"><path d="M11.355485,11.4503883 L16.0066609,16.1015642 L15.1015642,17.0066609 L10.4503883,12.355485 C9.34711116,13.2583262 7.93681293,13.8 6.4,13.8 C2.8653776,13.8 0,10.9346224 0,7.4 C0,3.8653776 2.8653776,1 6.4,1 C9.9346224,1 12.8,3.8653776 12.8,7.4 C12.8,8.93681293 12.2583262,10.3471112 11.355485,11.4503883 Z M6.4,12.52 C9.22769792,12.52 11.52,10.2276979 11.52,7.4 C11.52,4.57230208 9.22769792,2.28 6.4,2.28 C3.57230208,2.28 1.28,4.57230208 1.28,7.4 C1.28,10.2276979 3.57230208,12.52 6.4,12.52 Z"></path></g></g></g></svg></button>
+            </form>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- right -->
+          <div class="right_nav_itmes col-sm 8 d-flex align-items-center justify-content-end flex-row">
+            <a href=""> find your new career</a>
+            <a href=""> log in</a>
+            <a href="">join for free</a>
+          </div>
+          <!-- right -->
+
+          <div class="login_container">
+            <a href="#"> Join for Free</a>
+            <a href="#"> Log In</a>
+
+          </div>
+           
+          </div>
+
+
+
+        </div>
+      </nav>
+<!-- end nav bar -->
+
+
+
+
+
+<!-- jumbo -->
+<div class="my_jumbo ">
+
+  <h2>
+    Explore and discover<br> the right course for you!
+    </h2>
+
+<!--  start search -->
+<div class="search_courses">
+<form action="">
+  <select class="form-select" >
+    <option selected>Field of Study</option>
+    <option value="1">Accounting</option>
+    <option value="2">Engineering</option>
+    <option value="3">Medicine</option>
+  </select>
+
+  <select class="form-select">
+    <option selected>Field of Specialization</option>
+    <option value="1">Business Finance</option>
+    <option value="2">Mechanical Engineering</option>
+    <option value="3">Pharmacy</option>
+  </select>
+
+  <select class="form-select">
+    <option selected>Field of Interest</option>
+    <option value="1">Entrepreneurship</option>
+    <option value="2">Robotics</option>
+    <option value="3">Cellular Biology</option>
+  </select>
+
+  <select class="form-select">
+    <option selected>Level</option>
+    <option value="1">Beginner</option>
+    <option value="2">Intermediate</option>
+    <option value="3">Pro</option>
+  </select>
+
+
+  <button>
+    find course
+  </button>
+
+</form>
+
+
+
+</div>
+<!-- end search  -->
+
+
+
+</div>
+<!-- jumbo -->
+
+
+
+<!-- main -->
+<div class="main">
+
+  <!-- courses-container -->
+<div class="courses-container ">
+  <div class="row  d-flex align-items-center justify-content-center">
+    <!--  -->
+  <div class="course col-sm-3">
+    <div class="course-header">
+        <img src="assets\img\5298922_5392_3.jpg" alt="logo">
+    </div>
+    <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+    <span>Data Science Lovers</span>
+    <div class="d-flex align-items-center justify-content-start">
+    <p><strong>4.5</strong></p>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+    <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+  </div>
+    <!--  -->
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/5344042_e749_3.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/5264010_1352.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+  
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/5002062_aa6a.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/5008800_67b0.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/950390_270f_3.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/1533864_a443.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/753140_f3f3_2.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/1011712_a062.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+  
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/2430492_5cdb_8.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/4182538_bdf1_3.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+ <!--  -->
+ <div class="course col-sm-3">
+  <div class="course-header">
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" alt="logo">
+  </div>
+  <a href="course_details.html">Python For Data Science - Real Time Exercises</a>
+  <span>Data Science Lovers</span>
+  <div class="d-flex align-items-center justify-content-start">
+  <p><strong>4.5</strong></p>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+  <p><strong>$ 12.99</strong> <span class="strike-through" style="font-size: 15px;">$17.99</span></p>
+</div>
+  <!--  -->
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+  <!-- courses-container -->
+
+
+
+
+</div>
+<!-- main -->
+
+
+
+<footer>
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Popular AI Content</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Prompt Engineering for ChatGPT Course</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Machine Learning Specialization</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Data Science Professional Certificate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">AI For Everyone Course</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Generative AI with LLMs Course</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Popular Programs</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Google Data Analytics Professional Certificate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Google Cybersecurity Professional Certificate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Google Project Management Professional Certificate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Google UX Design Professional Certificate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Google IT Support Professional Certificate</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Popular Skills</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cybersecurity Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Digital Marketing Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Project Management Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Python Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Excel Courses</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2024 Couresa. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
